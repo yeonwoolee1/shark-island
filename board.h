@@ -1,5 +1,9 @@
+#define N_BOARD            15 //º¸µå Ä­ °¹¼ö 
+
 #define BOARDSTATUS_OK      1//º¸µå ±¦Âú 
 #define BOARDSTATUS_NOK     0//º¸µå ÆÄ¼Õ
+
+
 
 
 

@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include "board.h"
-#include "board.c"
 
 #define MAX_CHARNAME  200
 #define N_PLAYER      3
@@ -205,8 +204,8 @@ int main(int argc, char *argv[]) {
 	 if(turn==0)
 	 {
 	 	//상어동작
-	 	int shark_pos=SHARK_INITPOS;
-	 	shark_pos=board_stepShark();
+	 	
+		int shark_pos=board_stepShark();
 		printf("shark moved to %i\n", shark_pos);
 		checkDie();
 	 } 

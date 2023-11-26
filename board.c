@@ -2,12 +2,13 @@
 #include <stdlib.h>
 #include "board.h"
 
-#define N_BOARD            15 //º¸µå Ä­ °¹¼ö 
+
 #define N_COINPOS          12
 #define MAX_COIN           4
 
 #define MAX_SHARKSTEP      6
-#define SHARK_INITPOS      -2
+#define SHARK_INITPOS      -4
+
 
 
 static int board_status[N_BOARD]; 
